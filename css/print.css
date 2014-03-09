@@ -1,0 +1,96 @@
+.contact 
+{
+   display:none;
+} 
+ 
+.rss 
+{
+   display:none;
+ } 
+          
+.seab
+{
+	display:none;
+}
+
+*
+ {
+	text-decoration:none;
+	line-height:125%;
+	font-size:12px;
+	}	  		  
+.site .header h1 a{
+   display:none;
+}
+
+body {
+   margin:40px;
+}
+
+.site .header .extra
+{
+	display:none;
+}
+
+.ds-thread
+{
+	display:none;
+}
+.btn
+{
+	display:none;
+}
+
+.post pre {
+	padding: 0 .4em;
+	white-space:pre;
+        white-space:pre-wrap;
+        word-break:break-all;
+        word-wrap:break-word;
+}
+
+.post code {
+	border: 1px solid #ddd;
+	background-color: #eef;
+	font-size: 95%;
+	padding: 0 .2em;
+	white-space:pre;
+        white-space:pre-wrap;
+        word-break:break-all;
+        word-wrap:break-word;
+}
+
+.post pre code {
+	border: none;
+        white-space:pre;
+        white-space:pre-wrap;
+        word-break:break-all;
+        word-wrap:break-word;
+}
+
+/* terminal */
+
+.post pre.terminal {
+	border: 1px solid black;
+	background-color: #333;
+	color: white;
+	font-size: 14px;
+	overflow:auto;
+	white-space:pre;
+        white-space:pre-wrap;
+        word-break:break-all;
+        word-wrap:break-word;
+}
+
+.post pre.terminal code {
+	background-color: #333;
+	white-space:pre;
+        white-space:pre-wrap;
+        word-break:break-all;
+        word-wrap:break-word;
+}
+
+.post h1 {
+font-size:20px;
+margin-top:50px;
+}

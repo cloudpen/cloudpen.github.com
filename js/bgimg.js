@@ -1,0 +1,11 @@
+bg = new Array(5);//
+bg[0] = 'http://cloudpen-image.u.qiniudn.com/bg6.jpg'
+bg[1] = 'http://cloudpen-image.u.qiniudn.com/bg7.jpg'
+bg[2] = 'http://cloudpen-image.u.qiniudn.com/bg8.jpg'
+bg[3] = 'http://cloudpen-image.u.qiniudn.com/bg10.jpg'
+bg[4] = 'http://cloudpen-image.u.qiniudn.com/bg4.jpg'
+bg[5] = 'http://cloudpen-image.u.qiniudn.com/bg5.jpg'
+var myDate = new Date();
+var di=myDate.getHours();
+i=di%6;
+document.write("<BODY BACKGROUND="+bg[i]+">");

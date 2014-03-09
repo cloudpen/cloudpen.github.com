@@ -1,0 +1,9 @@
+markdown: rdiscount
+pygments: true
+lsi: false
+title: cloudpen
+production_url: http://blog.zhuyalin.cn
+
+JB :
+  BASE_PATH : false
+  atom_path : /atom.xml

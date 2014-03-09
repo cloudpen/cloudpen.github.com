@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="post">	
+	<h1> {{page.title}} </h1>
+	<span class="date"><small>{{ page.date | date:"%B %d, %Y" }}</small></span>
+	{{ content }}
+	<br/><br/>
+	<span style="float:left"><a href="{{ page.previous.url }}" >{{ page.previous.title }}</a></span>
+	<span style="float:right"><a href="{{ page.next.url }}" >{{ page.next.title }}</a></span>
+	<br/><br/>
+</div>
+	<input type="button" class="btn" id="btn" value="点击显示评论" onclick="btn()"/>
+	<div  class="ds-thread" id="ds-thread" style="display:none" ></div>
+<script type="text/javascript">
+var btn1=document.getElementById('btn');
+var box1=document.getElementById('ds-thread');
+function btn(){ if(btn1.value=="点击隐藏评论"){box1.style.display='none';btn1.value="点击显示评论";
+	}else{box1.style.display='';btn1.value="点击隐藏评论";
+}
+}
+</script>
+

@@ -31,9 +31,10 @@ font-size:12px;
 table-layout:fixed; 
 empty-cells:show; 
 border-collapse: collapse; 
-margin:0 auto; 
+margin:3px auto; 
 border:1px solid #000; 
 color:#666; 
+padding:3px;
 } 
 th {
   background-color: #cad9ea;

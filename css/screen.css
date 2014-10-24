@@ -36,8 +36,8 @@ border:1px solid #000;
 color:#666; 
 } 
 th {
-  background-color: #cad9ea
-  
+  background-color: #cad9ea;
+  text-align:center;
 }
 td{ 
 height:30px; 

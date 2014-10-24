@@ -38,6 +38,7 @@ color:#666;
 th {
   background-color: #cad9ea;
   text-align:center;
+  border:1px solid #000; 
 }
 td{ 
 height:30px; 

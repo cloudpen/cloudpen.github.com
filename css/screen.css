@@ -34,6 +34,7 @@ border-collapse: collapse;
 margin:0 auto; 
 border:1px solid #cad9ea; 
 color:#666; 
+background-color:#eee;
 } 
 td{ 
 height:30px; 

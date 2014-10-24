@@ -26,6 +26,18 @@ body {
 	}
 
 
+table{ 
+font-size:12px; 
+table-layout:fixed; 
+empty-cells:show; 
+border-collapse: collapse; 
+margin:0 auto; 
+} 
+td{ 
+height:30px; 
+} 
+	
+	
 blockquote {
         background:#f9f9f9;
         border-left:10px solid #ccc;

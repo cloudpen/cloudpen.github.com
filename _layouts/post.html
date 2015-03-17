@@ -6,8 +6,10 @@ layout: default
 	<span class="date"><small>{{ page.date | date:"%B %d, %Y" }}</small></span>
 	{{ content }}
 	<br/><br/>
+	<div id="daohang">
 	<span style="float:left"><a href="{{ page.previous.url }}" >{{ page.previous.title }}</a></span>
 	<span style="float:right"><a href="{{ page.next.url }}" >{{ page.next.title }}</a></span>
+	</div>
 	<br/><br/>
 </div>
 	<input type="button" class="btn" id="btn" value="点击显示评论" onclick="btn()"/>
